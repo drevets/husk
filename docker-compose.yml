@@ -1,0 +1,13 @@
+version: "3"
+services:
+  db:
+    image: postgres:12.1
+    shm_size: 1g
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=husk
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
