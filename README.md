@@ -12,5 +12,5 @@ Before running the project, you need to make sure you have Docker and yarn insta
 
 # More info
 
-To learn more about Create React App, you can visit (this link)[https://create-react-app.dev/].
-Learn more about NestJS at (nestjs.com)[https://nestjs.com/].
+To learn more about Create React App, you can visit [this link](https://create-react-app.dev/).
+Learn more about NestJS at [nestjs.com](https://nestjs.com/).
